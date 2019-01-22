@@ -5,7 +5,8 @@ elsif array.length >= 3
   last = array.pop
   array.push("and")
   array.join(", ")
-  array += "#{last}"
+  new_array  = array + last
+  return new_array
 else
   return array.join
 end
