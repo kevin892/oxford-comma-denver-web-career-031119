@@ -3,10 +3,9 @@ if array.length == 2
    array.join(" and ")
 elsif array.length >= 3
   last = array.pop
-  last.join
   array.push("and")
   array.join(", ")
-  array += last
+  array.concat(last)
 else
   return array.join
 end
