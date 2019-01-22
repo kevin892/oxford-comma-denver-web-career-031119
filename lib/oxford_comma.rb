@@ -4,7 +4,7 @@ if array.length == 2
 elsif array.length >= 3
   new_array = []
   new_array.push(array.pop)
-  array.push(and)
+  array.push("and")
   array.join(", ")
   new_array.join
   "#{array}" + "#{new_array}"
