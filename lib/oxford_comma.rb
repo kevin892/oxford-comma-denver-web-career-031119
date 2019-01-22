@@ -9,4 +9,4 @@ elsif array.length >= 3
 else
   return array
 end
-end 
+end
