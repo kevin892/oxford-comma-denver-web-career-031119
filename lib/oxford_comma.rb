@@ -7,7 +7,6 @@ elsif array.length >= 3
   array.push("and")
   array.join(", ")
   array += last
-  return new_array
 else
   return array.join
 end
