@@ -6,6 +6,6 @@ elsif array.length >= 3
   array.push("and")
   array.join(", ")
 else
-  return array
+  return array.join
 end
 end
